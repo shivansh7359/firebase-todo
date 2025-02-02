@@ -75,13 +75,6 @@ const RegisterForm = () => {
                         </Link>
                     </p>
 
-                    // <div className="bg-black/[0.05] text-white w-full py-4 mt-10 rounded-full transition-transform hover:bg-black/[0.8] active:scale-90 flex justify-center items-center gap-4 cursor-pointer group" onClick={signInWithGoogle}>
-                    //     <FcGoogle size={22} />
-                    //     <span className="font-medium text-black group-hover:text-white">
-                    //         Login with Google
-                    //     </span>
-                    // </div>
-
                     <form onSubmit={(e) => e.preventDefault()}>
                         <div className="mt-10 pl-1 flex flex-col">
                             <label>Name</label>
